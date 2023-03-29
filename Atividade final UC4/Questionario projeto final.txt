@@ -1,0 +1,34 @@
+Qual é o objetivo do sistema e qual é o problema que ele se destina a resolver?
+Objetivo: controle de atendimento do Cateq.
+Problema: Possíveis erros no cadastro e falta de atualização.
+
+Quem são os usuários finais do sistema e quais são as suas necessidades?
+Usuários finais: Atendentes e público em geral
+Necessidades: Controle de atedimento e de vagas
+
+Qual é a escala do sistema e quais são as suas limitações?
+Escala sistema: 10 pessoas
+Limitações: Erro de cadastro, falta de correspondencia na vaga
+
+Quais são os requisitos funcionais do sistema, ou seja, quais são as tarefas que ele deve ser capaz de realizar?
+Cadastro e controle de atendimento
+
+Quais são os requisitos não funcionais do sistema, como segurança, desempenho, escalabilidade e facilidade de uso?
+Segurança: senha de administrador
+Escabilidade: Cadastro de mais usuarios futuramente
+Facilidade de uso: Qualquer nivel de instrução
+
+O sistema precisa se integrar a outros sistemas já existentes? Se sim, quais são esses sistemas e como eles se integram?
+Sim, sistema de senha
+
+Quais são as restrições orçamentárias e de tempo para o desenvolvimento do sistema?
+Restrição de tempo: 2 semanas
+
+Quem será responsável pela manutenção e suporte contínuos do sistema após o seu lançamento?
+Juliana e Geangela
+
+Quais são os requisitos de treinamento para os usuários finais do sistema?
+Manual simples
+
+Há algum outro requisito importante que deva ser considerado para o sucesso do projeto?
+Facilitar a contratação
