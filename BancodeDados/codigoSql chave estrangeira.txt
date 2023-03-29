@@ -1,0 +1,20 @@
+CREATE TABLE "Compra"(
+        "ID" int GENERATED ALWAYS AS IDENTITY,
+        "ID_Empresa" int NOT NULL,
+        "ID_Fornecedor" int NOT NULL,
+        "Data_Pedido" Date Not Null default,
+      
+        CONSTRAINT fk_empresa
+            FOREIGN KEY("ID_Empresa")
+            REFERENCES "Empresa"("ID")
+            ON DELETE NO ACTION 
+            ON UPDATE NO ACTION
+	
+	CONSTRAINT fk_fornecedor
+            FOREIGN KEY("ID_Fornecedor")
+            REFERENCES "Fornecedor"("ID")
+            ON DELETE NO ACTION 
+            ON UPDATE NO ACTION
+            ,
+        PRIMARY KEY ("ID")
+    );
