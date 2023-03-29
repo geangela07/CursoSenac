@@ -1,0 +1,30 @@
+import json
+from classEmpresa import Empresa
+from classFuncionario import Funcionario, Gerente
+
+with open("banco.json") as f:
+    dados = json.load(f)
+
+funcionarios = []
+
+for func in dados:
+    if func["Cargo"] == "Gerente":
+
+        funcionarios.append(Gerente(func["ID"],func["Nome"],func["CPF"],
+        func["Salario"],func["Cargo"],func["Login"],func["Senha"]))
+
+    else:
+
+        funcionarios.append(Funcionario(func["ID"],func["Nome"],func["CPF"],
+        func["Salario"],func["Cargo"]))
+
+empresa = Empresa(funcionarios)
+print("Bem vindo a Empresa CATEQ")
+while True:
+    print("Faça seu login")
+    usuarioLogin = input("Escreva seu login: ")
+    usuarioSenha = input("Escreva sua senha: ")
+    empresa.loginFuncionario(usuarioLogin,usuarioSenha)
+    empresa.imprimirFuncionarios()
+    idFuncionario = input("Digite o ID do funcionario que deseja visualizar: ")
+    empresa.visualizarFuncionario(idEscolhido)
