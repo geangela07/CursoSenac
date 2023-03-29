@@ -1,0 +1,38 @@
+a) Cadastro de produtos; (Papelaria)
+Entidade:Produto
+Atributos: 
+	Nome do Produto
+	Preço do Produto
+	Código do produto
+	Tipo do produto
+	Cor
+	Marca
+
+b) Cadastro de funcionário; (Escola)
+Entidade:Funcionario
+Atributos: 
+	Matrícula
+	Data de Nascimento
+	RG
+	CPF
+	Telefone
+	Endereço
+	Função
+	Data de admissão
+
+c) Cadastro de fornecedores; (Tecido)
+Entidade: Fornecedor
+Atributos:
+	Nome do fornecedor
+	ID do fornecedor
+	Tipo de tecido
+	Preço do tecido
+	Data da compra
+	CNPJ
+
+d) Cadastro de departamentos; (Empresa)
+Entidade: Departamento
+Atributos: 
+	Nome do departamento
+	Atribuiçoes do departamento
+	Funcionarios do departamento
